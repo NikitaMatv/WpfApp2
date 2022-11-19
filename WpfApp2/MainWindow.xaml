@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="470" Width="820"
+        ResizeMode="NoResize">
     <Grid Background="LightGray">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -435,14 +436,14 @@
                     </Button>
                     
                 </StackPanel>
-                <StackPanel Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Orientation="Horizontal">
+                <StackPanel Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Orientation="Horizontal" >
                     <Button  Width="70" Height="30">
                         <StackPanel  Orientation="Horizontal" >
                             <Image  Source="Resurse/pngegg (1).png" Width="15" Height="15"></Image>
                             <TextBlock>Ок</TextBlock>
                         </StackPanel>
                     </Button>
-                    <Button  Width="70" Height="30">
+                    <Button  Width="70" Height="30"  Margin=" 10 0 10 0">
                         <StackPanel  Orientation="Horizontal"  >
                             <Image Source="Resurse/pngwing.com.png" Width="15" Height="15"></Image>
                             <TextBlock>Отмена</TextBlock>
