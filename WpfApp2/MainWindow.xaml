@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
         Title="MainWindow" Height="470" Width="820"
-        ResizeMode="NoResize">
+        ResizeMode="CanMinimize">
     <Grid Background="LightGray">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
