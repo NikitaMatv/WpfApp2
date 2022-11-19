@@ -264,7 +264,7 @@
                         </StackPanel>
                     </TabItem.Content>
                 </TabItem>
-                <TabItem x:Name="Dann">
+                <TabItem x:Name="Dann" >
                     <TabItem.Header>
                         <StackPanel Orientation="Horizontal">
                             <Ellipse Height="10" Width="10" Fill="Black" />
@@ -282,7 +282,7 @@
                                 </Grid.RowDefinitions>
                                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Height="22">
                                     <TextBlock>Таб. №</TextBlock>
-                                    <TextBox Height="20" Width="100" Margin="0 -2 0 0">0001</TextBox>
+                                    <TextBox Height="20" Width="100" Margin="0 -2 0 0" TextAlignment="Right">0001</TextBox>
                                     <TextBlock Margin="140 0 0 0">Пол</TextBlock>
                                     <RadioButton VerticalAlignment="Center" IsChecked="True">муж.</RadioButton>
                                     <RadioButton VerticalAlignment="Center">жен.</RadioButton>
